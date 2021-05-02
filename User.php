@@ -14,7 +14,7 @@ class User{
         $this->email = $email;
         $this->password = $password;
         $this->birthday = $birthday;
-
+        echo "RAMAAAAA";
     }
 
     public function getUsername(){
@@ -32,6 +32,7 @@ class User{
     public function getBirthday(){
         return $this->birthday; 
     }
+    
     
 }    
 
